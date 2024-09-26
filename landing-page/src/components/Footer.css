@@ -1,0 +1,73 @@
+footer {
+    background-color: white;
+    color: green;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    gap: 10px;
+}
+
+.title {
+    margin-bottom: 15px;
+
+}
+
+.email-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: darkgreen;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.footer-note {
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .email-input,
+    .submit-button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer-note {
+        font-size: 12px;
+    }
+}
